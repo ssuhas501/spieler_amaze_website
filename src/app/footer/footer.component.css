@@ -1,0 +1,53 @@
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  color:#455679;
+  display: block;
+  padding-top:12px;
+  padding-bottom:12px;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.vertical-menu .active {
+  color:#000000;
+}
+
+
+.btn-sign{
+
+    background: #ffffff;
+    color: #465678;
+    font-weight: normal;
+    width:120px;
+    border-radius: 6px !important;
+    font-size: 16px !important;    
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+ul li{
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-square-box{
+  background-color:#455679;
+}
+
+.footer-background{
+  background-image: url('../../assets/Icons/Website-backgrounds/Path-4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+

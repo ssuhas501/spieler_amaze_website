@@ -1,0 +1,148 @@
+.subtext{
+    line-height: 1.8;
+    text-align: justify;
+}
+
+:host ::ng-deep .mat-stepper-horizontal, .mat-stepper-vertical{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+:host ::ng-deep .mat-step-icon{
+    height:50px;
+    width:50px;
+    font-size: 20px !important;
+}
+
+.class-six{
+    height: 400px;
+    bottom:50px;
+}
+
+.down-arrow-img{
+    top:15px;
+    right:10px;
+}
+
+.up-arrow-img{
+    transform: rotate(180deg)
+}
+
+:host ::ng-deep .drag-scroll-content p{
+    white-space: normal !important;
+}
+
+.testimonial-card{
+    display: inline-block;
+    min-height: 200px;
+    margin: 15px;
+}
+
+.left-img-box{
+    background-image: url('../../assets/Icons/Middle/photo 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.right-img-box{
+    background-image: url('../../assets/Icons/Middle/photo 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.how-it-works{
+    background-image: url('../../assets/Icons/Website-backgrounds/how-it-works.png');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.vertical-menu {
+  padding-left:68px;
+}
+
+.vertical-menu a {
+  color: #465678;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: justify;
+}
+
+
+.background-grey{
+    background-color: #D8D8D8;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+ul li{
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.banner-text{
+    color:#C3CBBF;
+}
+
+
+
+:host ::ng-deep .mat-step-header .mat-step-icon-state-edit {
+    background-color: #b8546c00;
+    color: #EA3D68;
+    /* border: 1.5px solid #EA3D68; */
+}
+
+:host ::ng-deep .mat-step-header .mat-step-icon{
+    background-color: #b8546c00;
+    color: #EA3D68;
+    border: 1.5px solid #EA3D68;
+}
+
+:host ::ng-deep .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit{
+    background-color: #CECECE;
+    color:#2C3852;
+    border:1.5px solid #CECECE;
+}
+
+:host ::ng-deep .mat-expansion-indicator{
+    display:block !important;
+}
+
+.bg-tab{
+    background: #cccccc59;
+}
+
+.third-section {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.BtnWidth .mat-form-field {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.SeconSection .fiveText{
+    display: inline-block;
+    position: absolute;
+    /* right: 0; */
+    /* top: -26px; */
+    margin-top: -31px;
+    color: #e6e7eb;
+    font-size: 56px!important;
+}
+
+.clasSix .span-class{
+    display: inline-block;
+    position: absolute;
+    margin-top: -31px;
+    color: #e6e7eb;
+    font-size: 56px!important;
+    /* left: 0; */
+    margin-left: -63px;
+}

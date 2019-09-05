@@ -1,0 +1,827 @@
+<!-- First Section -->
+<div class="row mt-30  width-100 third-section">
+    <div class="col-xs-12 col-md-5 col-lg-5 col-sm-6">
+        <p class="dark-grey-text font-36">Lorem Ipsum is simply dummy text</p>
+        <p class="dark-grey-text font-18 subtext">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s</p>
+
+        <div class="row BtnWidth">
+            <div class="col-xs-12 col-md-4 col-sm-6 col-lg-4 p-0">
+                <button mat-flat-button class="btn-join-now font-18">Join Now</button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 p-0">
+                <mat-form-field class="width-100">
+                    <mat-icon matPrefix class="font-25 p-5 dark-grey-text p-0">search</mat-icon>
+                    <input type="tel" class="font-20 dark-grey-text" matInput>
+                </mat-form-field>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-7 col-lg-7 col-sm-6">
+        <img src="assets/Icons/Middle/banner.png" class="pl-100 width-90" alt="">
+    </div>
+</div>
+
+<!-- Second Section -->
+<div class="row mt-20 p-20 SeconSection">
+    <div class="col-xs-12 col-md-7 col-lg-7 col-sm-6">
+        <img src="assets/Icons/Middle/Class 5 image.png" class="width-90 pl-75" alt="">
+    </div>
+    <div class="col-xs-12 col-md-5 col-lg-5 col-sm-6 classFive">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs">
+                <p></p>
+                <p class="highlight-color font-36 mb-10 pointer" routerLink="/courses" style="position:relative">Class Five <span class="fiveText">05</span></p>
+                
+            </div>
+
+            <div class="col-xs-offset-2 col-xs-12 col-sm-12 col-md-4 col-lg-4 pl-50">
+                <div class="red-divider"></div>
+            </div>
+
+            <div class="col-xs-12 col-md-12 col-lg-12 end-xs pr-50">
+                <p class="line-height font-18 subtext-color">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                </p>
+              
+                <img src="assets/Icons/_.png" class="relative down-arrow-img pointer" *ngIf="!showFiveClassSubject" alt=""
+                    (click)="showFiveClassSubject=!showFiveClassSubject">
+                <img src="assets/Icons/_.png" class="relative down-arrow-img pointer" alt=""
+                    *ngIf="showFiveClassSubject" (click)="showFiveClassSubject = !showFiveClassSubject">
+                    
+                <span class="red-text font-30">Explore</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- fiveClass tab -->
+
+<div class="row" *ngIf="showFiveClassSubject bg-tab">
+        <div class="col-md-12 col-lg-12 pl-100 pr-100 nopadding">
+            <div class="full-width background-grey  pt-15 pb-15 radius-50">
+                <ul>
+                    <li class="border-right-grey pr-15"><a
+                            class="pointer dark-grey-text font-bold font-20 menu-item">Maths</a>
+                    </li>
+                    <li class="border-right-grey pr-15"><a class="pointer grey-text font-20 pl-10 pr-10">English</a></li>
+                    <li><a class="pointer grey-text font-20 pl-10 pr-10">National Curriculum</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-12 pl-140 pr-140 center-xs nopadding">
+            <p class="font-16 dark-grey-text line-height">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+                Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book</p>
+        </div>
+        <div class="col-md-12 col-lg-12 center-xs pl-140 pr-140 mt-30 mb-50 nopadding">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 homeAccordation">
+                    <mat-accordion>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                    1. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+    
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                   2. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+                        
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                   3. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+    
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                    4. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+    
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                    5. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+                       
+                    </mat-accordion>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 homeAccordation">
+                    <mat-accordion>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                    1. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+    
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                   2. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+                        
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                   3. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+    
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                    4. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+    
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                    5. Title of the chapter
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+    
+                            <div class="vertical-menu mb-20">
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                    chapter</a>
+                                <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                    chapter</a>
+                            </div>
+                        </mat-expansion-panel>
+                    </mat-accordion>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+<!-- Third Section -->
+<div class="row mt-20 p-20 clasSix">
+    <div class="col-xs-12 col-md-6 col-lg-6 col-sm-6">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs">
+                <p class="highlight-color font-36 mb-10 pointer" routerLink="/courses" style="position: relative;">  <span class="span-class">06</span> Class Six</p>
+            </div>
+
+            <div class="col-xs-offset-6 col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="red-divider"></div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 end-xs pr-50">
+                <p class="subtext font-18 subtext-color pl-90">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                </p>
+                <span class="red-text font-30">Explore</span>
+                <img src="assets/Icons/_.png" class="relative icon-img" *ngIf="!showClassSubject" alt=""
+                    (click)="showClassSubject=!showClassSubject">
+                <img src="assets/Icons/_.png" class="relative icon-img" alt=""
+                    *ngIf="showClassSubject" (click)="showClassSubject = !showClassSubject">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-md-6 col-lg-6 end-xs col-sm-6">
+        <img src="assets/Icons/Middle/Class six graphics.png" class="class-six pl-30 pr-90 relative" alt="">
+    </div>
+</div>
+
+<div class="row" *ngIf="showClassSubject bg-tab">
+    <div class="col-md-12 col-lg-12 pl-100 pr-100 nopadding">
+        <div class="full-width background-grey  pt-15 pb-15 radius-50">
+            <ul>
+                <li class="border-right-grey pr-15"><a
+                        class="pointer dark-grey-text font-bold font-20 menu-item">Maths</a>
+                </li>
+                <li class="border-right-grey pr-15"><a class="pointer grey-text font-20 pl-10 pr-10">English</a></li>
+                <li><a class="pointer grey-text font-20 pl-10 pr-10">National Curriculum</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-12 col-lg-12 pl-140 pr-140 center-xs nopadding">
+        <p class="font-16 dark-grey-text line-height">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book</p>
+    </div>
+    <div class="col-md-12 col-lg-12 center-xs pl-140 pr-140 mt-30 mb-50 nopadding">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 homeAccordation">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                1. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                               2. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+                    
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                               3. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                4. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                5. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+                   
+                </mat-accordion>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 homeAccordation">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                1. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                               2. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+                    
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                               3. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                4. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="highlight-color font-26 text-center pl-50">
+                                5. Title of the chapter
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div class="vertical-menu mb-20">
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.1 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.2 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.3 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.4 Title of the
+                                chapter</a>
+                            <a routerLink="/question" class="highlight-color font-18 pointer">1.5 Title of the
+                                chapter</a>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Fourth Section -->
+<div class="row pl-100 pr-100 mo-course">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs">
+        <p class="font-46 highlight-color">Our Other Courses</p>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 center-xs">
+        <span class="highlight-color font-30 red-border">Class Seven</span>
+        <p class="subtext-color font-18 subtext text-center">Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry
+        </p>
+        <span class="red-text font-20"><a class="pointer">See More</a></span>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 center-xs">
+        <span class="highlight-color font-30 red-border">Class Eight</span>
+        <p class="subtext-color font-18 subtext text-center">Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry
+        </p>
+        <span class="red-text font-20"><a class="pointer">See More</a></span>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 center-xs">
+        <span class="highlight-color font-30 red-border">Class Nine</span>
+        <p class="subtext-color font-18 subtext text-center">Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry
+        </p>
+        <span class="red-text font-20"><a class="pointer">See More</a></span>
+    </div>
+</div>
+
+<!-- Fifth Section -->
+<div class="row mt-50 pl-100 pr-100 section-fifth">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs">
+        <span class="font-36 highlight-color">Lorem ipsum dolor sit amet</span>
+        <p class="highlight-color font-18 subtext pl-50 pr-50 text-center">Lorem Ipsum is simply dummy text of the
+            printing and
+            typesetting
+            industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-xs-6">
+        <div class="m-auto pl-100 pt-50 pb-50 left-img-box radius-5">
+            <span class="font-15 font-bold">NEW FARM TODAY</span>
+            <div class="white-divider mt-5"></div>
+            <span class="font-30 white-text d-block width-50 mt-35">Short term investment</span>
+            <p class="banner-text font-18 width-50">Invest in farms that will be ready for harvest in 3-18 months</p>
+            <button mat-stroked-button class="font-18 highlight-color white-background">Learn More</button>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-xs-6 ">
+        <div class="m-auto pl-100 pt-50 pb-50 right-img-box radius-5 ">
+            <span class="font-15 font-bold">NEW FARM TODAY</span>
+            <div class="white-divider mt-5"></div>
+            <span class="font-30 white-text d-block width-50 mt-35">Short term investment</span>
+            <p class="banner-text font-18 width-50">Invest in farms that will be ready for harvest in 3-18 months</p>
+            <button mat-stroked-button class="font-18 highlight-color white-background">Learn More</button>
+        </div>
+    </div>
+    <div class="grey-divider mt-50 full-width"></div>
+</div>
+
+<!-- Sixth Section -->
+<div class="row mt-25 p-50 section-six">
+    <div class="full-width how-it-works">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-50 pl-140 pr-140 center-xs nopadding">
+            <span class="font-36 white-text">How it works</span>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-50 pl-100 pr-100 center-xs nopadding">
+            <p class="font-18 white-text text-center subtext"> Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-35 pl-100 pr-100 nopadding">
+            <mat-horizontal-stepper>
+                <ng-template matStepperIcon="edit">
+                    <mat-icon>check_circle_outline</mat-icon>
+                </ng-template>
+                <mat-step>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text line-height font-18 pl-50 pr-50">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing
+                                elit. Quisque
+                            </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text font-18 subtext">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Quisque
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            </p>
+                        </div>
+                    </div>
+                </mat-step>
+                <mat-step>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text line-height font-18 pl-50 pr-50">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing
+                                elit. Quisque
+                            </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text font-18 subtext">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Quisque
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            </p>
+                        </div>
+                    </div>
+                </mat-step>
+                <mat-step>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text line-height font-18 pl-50 pr-50">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing
+                                elit. Quisque
+                            </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text font-18 subtext">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Quisque
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            </p>
+                        </div>
+                    </div>
+                </mat-step>
+                <mat-step>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text line-height font-18 pl-50 pr-50">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing
+                                elit. Quisque
+                            </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p class="white-text font-18 subtext">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Quisque
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            </p>
+                        </div>
+                    </div>
+                </mat-step>
+            </mat-horizontal-stepper>
+        </div>
+    </div>
+</div>
+
+<!-- Seventh Section -->
+<div class="row mt-0">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+        <p class="highlight-color font-46 pb-20"
+            style="background-image: url('assets/Icons/testimonials.png');background-repeat: no-repeat;">What parents
+            like you are saying about Amaze</p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <drag-scroll #nav class="review-drag-scroll row">
+            <div drag-scroll-item class="testimonial-card mat-elevation-z5 col-md-4 col-lg-4">
+                <div class="row p-15">
+                    <div class="col-xs-3 vertical-align-middle">
+                        <img class="width-80 radius-50" src="assets/Icons/testimo-user.jpg" alt="">
+                    </div>
+                    <div class="col-xs-9">
+                        <h3 class="mb-0 highlight-color">Pawan Kale</h3>
+                        <span class="normal-color font-18">Telecommunication Engineer</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="dark-grey-text font-18 subtext">"Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div drag-scroll-item class="testimonial-card mat-elevation-z5 col-md-4 col-lg-4">
+                <div class="row p-15">
+                    <div class="col-xs-3 vertical-align-middle">
+                        <img class="width-80 radius-50" src="assets/Icons/testimo-user.jpg" alt="">
+                    </div>
+                    <div class="col-xs-9">
+                        <h3 class="mb-0 highlight-color font-18">Pawan Kale</h3>
+                        <span class="normal-color font-18">Telecommunication Engineer</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="dark-grey-text font-18 subtext">"Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div drag-scroll-item class="testimonial-card mat-elevation-z5 col-md-4 col-lg-4">
+                <div class="row p-15">
+                    <div class="col-xs-3 vertical-align-middle">
+                        <img class="width-80 radius-50" src="assets/Icons/testimo-user.jpg" alt="">
+                    </div>
+                    <div class="col-xs-9">
+                        <h3 class="mb-0 highlight-color font-18">Pawan Kale</h3>
+                        <span class="normal-color font-18">Telecommunication Engineer</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="highlight-color font-18 subtext">"Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div drag-scroll-item class="testimonial-card mat-elevation-z5 col-md-4 col-lg-4">
+                <div class="row p-15">
+                    <div class="col-xs-3 vertical-align-middle">
+                        <img class="width-80 radius-50" src="assets/Icons/Up Symbol.png" alt="">
+                    </div>
+                    <div class="col-xs-9">
+                        <h3 class="mb-0 highlight-color font-18">Pawan Kale</h3>
+                        <span class="grey-text font-18">Telecommunication Engineer</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="dark-grey-text font-18 subtext">"Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </drag-scroll>
+
+        <div class="btn-scroll pl-100 mb-30">
+            <img src="assets/Icons/testimonials left.png" class="mt-15 pointer" (click)="moveLeft(ds)" alt="">
+            <img src="assets/Icons/testimonials right.png" class="mt-15 ml-15 pointer" (click)="moveRight(ds)" alt="">
+        </div>
+    </div>
+</div>

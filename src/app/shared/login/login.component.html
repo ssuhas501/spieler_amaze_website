@@ -1,0 +1,87 @@
+<!-- Login Form -->
+<div class="row mb-50 modal-index" *ngIf="showLogin">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs">
+        <h2>Sign in</h2>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Username">
+        </mat-form-field>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <mat-form-field class="full-width">
+            <input type="password" matInput placeholder="Password">
+        </mat-form-field>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 p-0 start-xs">
+                <span class="dark-grey-text font-12 pointer" (click)="showLogin = !showLogin">Create an account</span>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 p-0 end-xs">
+                <span class="dark-grey-text font-12 pointer">Forgot Password?</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 mt-10 start-xs">
+        <mat-checkbox>Remember me </mat-checkbox>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-25 pl-100 pr-100 center-xs NoPadding">
+        <button mat-flat-button class="btn-login" (click)="closeDialog('submit')">Sign In</button>
+        <button mat-flat-button class="cancel-btn ml-10" (click)="closeDialog('close');">Cancel</button>
+    </div>
+</div>
+
+
+<!-- Register Form -->
+<div class="row mb-50 modal-index" *ngIf="!showLogin">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs">
+        <h2>Create an account</h2>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Full Name">
+        </mat-form-field>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Email address">
+        </mat-form-field>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Username">
+        </mat-form-field>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <mat-form-field class="full-width">
+            <input type="password" matInput placeholder="Password">
+        </mat-form-field>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100 NoPadding">
+        <mat-form-field class="full-width">
+            <input type="password" matInput placeholder="Confirm Password">
+        </mat-form-field>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-100 pr-100">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-0"></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-0 end-xs">
+                <span class="dark-grey-text font-12 pointer" (click)="showLogin = !showLogin">Sign in instead?</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-25 pl-100 pr-100 center-xs NoPadding">
+        <button mat-flat-button class="btn-login" (click)="closeDialog('submit')">Register</button>
+        <button mat-flat-button class="cancel-btn ml-10" (click)="closeDialog('close');">Cancel</button>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+.btn-login{
+    background: #465678;
+    color: #ffffff;
+    font-weight: normal;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+}
+
+.cancel-btn{
+    font-size: 16px !important;
+    background: transparent;
+    font-weight: normal;
+    border: 1px solid #BCBDC1 !important;
+    outline: none !important;
+    color: #BCBDC1;
+    border-radius: 5 !important;
+}
+
+.modal-index{
+    z-index: 9999;
+}
